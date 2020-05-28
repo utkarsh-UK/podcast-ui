@@ -4,6 +4,10 @@ import 'dart:ui' as ui;
 import '../constants/colors.dart';
 
 class CustomBackground extends CustomPainter {
+  final bool orangeToBottom;
+
+  CustomBackground({this.orangeToBottom = false});
+
   @override
   void paint(Canvas canvas, Size size) {
     final height = size.height;
@@ -61,7 +65,7 @@ class CustomBackground extends CustomPainter {
       );
 
     Path orangePath = Path();
-    orangePath.moveTo(50, 0.0);
+    orangeToBottom ? orangePath.moveTo(0.0, 50.0) : orangePath.moveTo(50, 0.0);
     orangePath.quadraticBezierTo(
         width * 0.65, height * 0.15, width * 0.7, height);
     orangePath.lineTo(0.0, height);

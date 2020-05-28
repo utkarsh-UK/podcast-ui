@@ -32,6 +32,11 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.w500,
             letterSpacing: 0.9,
           ),
+          subtitle1: GoogleFonts.kanit(
+            fontSize: 16.0,
+            color: MyColors.fontColor,
+            fontWeight: FontWeight.w200,
+          ),
         ),
       ),
     );
