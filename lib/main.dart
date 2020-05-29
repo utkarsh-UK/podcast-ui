@@ -37,6 +37,16 @@ class MyApp extends StatelessWidget {
             color: MyColors.fontColor,
             fontWeight: FontWeight.w200,
           ),
+          bodyText1:  GoogleFonts.kanit(
+            fontSize: 16.0,
+            color: MyColors.fontColor,
+            fontWeight: FontWeight.normal,
+          ),
+          button: GoogleFonts.kanit(
+            fontSize: 18.0,
+            color: MyColors.fontColor,
+            fontWeight: FontWeight.normal,
+          ),
         ),
       ),
     );
