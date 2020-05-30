@@ -1,16 +1,25 @@
-# podcast
+# PODCAST App
 
-A new Flutter project.
+### Introduction
 
-## Getting Started
+A demo prototype app for  listening to podcasts and it's artists.
 
-This project is a starting point for a Flutter application.
+* The UI is inpired from this [Dribble](https://dribbble.com/shots/5972331-Podcast-App-Exploration) post.
+* The image resources used in this app are from [Pexels](https://www.pexels.com/).
 
-A few resources to get you started if this is your first Flutter project:
+### Some Glimpse
+<p float="left">
+  <img src="screenshots/home.png" width="150"  alt="Home Screen"  title="Home Screen"/>
+  <img src="screenshots/singers.png" width="150"  alt="Stats Screen" title="Stats Screen"/> 
+  <img src="screenshots/songs.png" width="150"  alt="TODO Screen" title="TODO Screen"/>
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Demo
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<video width="320" height="240" controls>
+  <source src="(https://drive.google.com/file/d/1eQ49NcKTcdYRhutRhoDpbq799iRbKqMS/view?usp=sharing)" type="video/mp4">
+</video>
+
+>Made with love by **Utkarsh** :heart:
+
+>*This app is built with sole intention of exploring and showcasing UI skills :relaxed:*
