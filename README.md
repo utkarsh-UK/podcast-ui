@@ -14,12 +14,6 @@ A demo prototype app for  listening to podcasts and it's artists.
   <img src="screenshots/songs.png" width="150"  alt="TODO Screen" title="TODO Screen"/>
 </p>
 
-### Demo
-
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1eQ49NcKTcdYRhutRhoDpbq799iRbKqMS/view?usp=sharing" type="video/mp4">
-</video>
-
 >Made with love by **Utkarsh** :heart:
 
 >*This app is built with sole intention of exploring and showcasing UI skills :relaxed:*
