@@ -68,4 +68,18 @@ class Assets {
       'followers': '9,000',
     },
   ];
+
+  static const  List<String> songs = [
+    'Lose Somebody',
+    'Physical',
+    'Young & Sad',
+    'Break My Heart',
+    'Be Happy',
+    'What A Man Gotta Do',
+    'Toosie Slide',
+    'Five More Minutes',
+    'Freak',
+    'Stupid Love',
+    'Comeback',
+  ];
 }

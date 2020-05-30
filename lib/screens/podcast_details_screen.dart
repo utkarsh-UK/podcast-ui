@@ -114,39 +114,43 @@ class PodcastDetailsScreen extends StatelessWidget {
                               RouteSettings(arguments: singersList[index]),
                         ),
                       ),
-                      child: GridTile(
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                          decoration: BoxDecoration(
-                            color: singersList[index]['color'],
-                            borderRadius: BorderRadius.circular(30.0),
-                          ),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(30.0),
-                            child: Image.asset(
-                              singersList[index]['image'],
-                              fit: BoxFit.fill,
+                      child: Hero(
+                        tag: singersList[index]['name'],
+                        child: GridTile(
+                          child: Container(
+                            padding:
+                                const EdgeInsets.symmetric(horizontal: 8.0),
+                            decoration: BoxDecoration(
+                              color: singersList[index]['color'],
+                              borderRadius: BorderRadius.circular(30.0),
+                            ),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(30.0),
+                              child: Image.asset(
+                                singersList[index]['image'],
+                                fit: BoxFit.fill,
+                              ),
                             ),
                           ),
-                        ),
-                        footer: Container(
-                          alignment: Alignment.center,
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12.0,
-                            vertical: 6.0,
-                          ),
-                          decoration: BoxDecoration(
-                            color: Colors.white24,
-                            borderRadius: BorderRadius.only(
-                              bottomLeft: Radius.circular(30),
-                              bottomRight: Radius.circular(30),
+                          footer: Container(
+                            alignment: Alignment.center,
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 12.0,
+                              vertical: 6.0,
                             ),
-                          ),
-                          child: FittedBox(
-                            child: Text(
-                              singersList[index]['name'],
-                              style:
-                                  textTheme.headline6.copyWith(fontSize: 18.0),
+                            decoration: BoxDecoration(
+                              color: Colors.white24,
+                              borderRadius: BorderRadius.only(
+                                bottomLeft: Radius.circular(30),
+                                bottomRight: Radius.circular(30),
+                              ),
+                            ),
+                            child: FittedBox(
+                              child: Text(
+                                singersList[index]['name'],
+                                style: textTheme.headline6
+                                    .copyWith(fontSize: 18.0),
+                              ),
                             ),
                           ),
                         ),
