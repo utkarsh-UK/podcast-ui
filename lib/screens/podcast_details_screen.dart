@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:podcast/constants/assets.dart';
-import 'package:podcast/screens/play_podcast_screen.dart';
 
+import '../constants/assets.dart';
+import '../screens/play_podcast_screen.dart';
 import '../widgets/custom_background.dart';
 import '../widgets/rounded_path_clipper.dart';
 

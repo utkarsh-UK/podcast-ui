@@ -2,10 +2,13 @@
 
 ### Introduction
 
-A demo prototype app for  listening to podcasts and it's artists.
+A demo prototype app for listening to podcasts and it's artists.
 
 * The UI is inpired from this [Dribble](https://dribbble.com/shots/5972331-Podcast-App-Exploration) post.
 * The image resources used in this app are from [Pexels](https://www.pexels.com/).
+
+### Installation
+To experience on the real device, install the ARM64 version APK [Podcast](outputs/Podcast.apk)
 
 ### Some Glimpse
 <p float="left">

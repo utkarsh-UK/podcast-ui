@@ -1,10 +1,10 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
 import 'package:animations/animations.dart';
-import 'package:podcast/constants/colors.dart';
+import 'package:flutter/material.dart';
 
 import '../constants/assets.dart';
+import '../constants/colors.dart';
 import '../screens/podcast_details_screen.dart';
 
 class PodcastList extends StatelessWidget {
